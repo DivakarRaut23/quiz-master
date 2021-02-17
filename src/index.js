@@ -51,7 +51,7 @@ class QuizMaster extends Component {
   render () {
     return (
       <div className='container'>
-        <div className='title'> Divakar's QuizMaster</div>
+        <div className='title'> Love Manchester United ? Take this Quiz </div>
         {this.state.questionBank.length > 0 && 
         this.state.responses < 5 &&
         this.state.questionBank.map (
