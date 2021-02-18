@@ -1,4 +1,4 @@
-const qBank = [
+ const qBank = [
   {
     question:
       "Which year did David Beckham leave Manchester United?   ",
@@ -119,5 +119,6 @@ const qBank = [
   }
 ];
 
-export default (n = 5) =>
-  Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0, n));
+const questionSet = (n =5 ) => Promise.resolve(qBank.sort(() => 0.5 - Math.random()).slice(0, n));
+export default questionSet ;
+  
