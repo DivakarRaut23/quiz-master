@@ -4,6 +4,7 @@ import quizService from './quizService';
 import './assets/style.css';
 import QuestionBox from './Components/QuestionBox';
 import Result from './Components/Result';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class QuizMaster extends Component {
   state = {
